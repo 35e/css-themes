@@ -1,0 +1,112 @@
+/* ==UserStyle==
+@name        Perplexity Theme
+@description Theme
+@match       https://*.perplexity.ai/*
+@author      Spezi
+==/UserStyle== */
+:root {
+  --background-color: #0a1718;
+  --sidebar-color: #0c1d1e;
+  --highlight-color: #e8d3a0;
+  --secondary-color: #12292b;
+}
+
+/* Background */
+:is(.dark .dark\:bg-backgroundDark) {
+  background-color: var(--background-color);
+}
+
+/* Side nav */
+:is(.dark .dark\:bg-offsetDark),
+:is(.dark .dark\:focus\:bg-offsetDark:focus),
+:is(.dark .md\:dark\:hover\:bg-offsetDark:hover),
+:is(.dark .dark\:\!bg-offsetDark) {
+  background-color: var(--sidebar-color);
+}
+
+:is(.dark .dark\:border-borderMainDark),
+:is(.dark .dark\:border-borderMainDark\/60),
+:is(.dark .dark\:border-borderMainDark\/80),
+:is(.dark .dark\:divide-borderMainDark\/60) > :not([hidden]) ~ :not([hidden]),
+:is(.dark .dark\:divide-borderMainDark\/80) > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--secondary-color);
+}
+
+/* Main body */
+:is(.dark .dark\:bg-offsetPlusDark),
+.bg-offsetPlusDark,
+:is(.dark .md\:hover\:dark\:bg-offsetPlusDark):hover,
+:is(.dark .md\:dark\:hover\:bg-offsetPlusDark:hover) {
+  background-color: var(--secondary-color);
+}
+
+:is(.dark .dark\:\!bg-offsetDark),
+.ePundr,
+.ePundr > span,
+.codeWrapper > span {
+  background-color: var(--secondary-color) !important;
+}
+
+.hebEKa,
+.gnFpAY {
+  background-color: var(--sidebar-color) !important;
+}
+
+.selection\:bg-superDuper::selection,
+.selection\:text-textMain ::selection {
+  background-color: var(--sidebar-color);
+}
+
+.fill-super,
+.group:hover .group-hover\:fill-superDuper,
+:is(.dark .dark\:fill-superDark) {
+  fill: var(--highlight-color);
+}
+
+.caret-superDuper {
+  caret-color: var(--highlight-color);
+}
+
+.stroke-super,
+.group:hover .group-hover\:stroke-superDuper,
+:is(.dark .dark\:stroke-superDark) {
+  stroke: var(--highlight-color);
+}
+
+.hover\:\!ring-super:hover,
+:is(.dark .dark\:focus\:ring-borderMainDark:focus) {
+  --tw-ring-color: var(--highlight-color) !important;
+}
+
+:is(.dark .dark\:ring-borderMainDark) {
+  --tw-ring-color: var(--secondary-color) !important;
+}
+
+.ring-2 {
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+    var(--tw-shadow, 0 0 #0000);
+}
+
+.bg-super,
+.md\:hover\:bg-super:hover,
+:is(.dark .dark\:bg-textMainDark),
+:is(.dark .dark\:bg-superDark) {
+  background-color: var(--highlight-color);
+  color: var(--background-color);
+}
+
+.text-super,
+[class*="text-super"]:hover,
+.group:hover .md\:group-hover\:text-super,
+.prose :where(a):not(:where([class~="not-prose"] *)),
+:is(.dark .dark\:md\:hover\:text-textMainDark:hover),
+.selection\:text-textMain::selection,
+.selection\:bg-superDuper ::selection {
+  color: var(--highlight-color) !important;
+}
+
+@media (min-width: 768px) {
+  :is(.dark .dark\:md\:hover\:bg-offsetPlusDark:hover) {
+    background-color: var(--secondary-color);
+  }
+}
