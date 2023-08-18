@@ -67,7 +67,8 @@
 
 .stroke-super,
 .group:hover .group-hover\:stroke-superDuper,
-:is(.dark .dark\:stroke-superDark) {
+:is(.dark .dark\:stroke-superDark),
+:is(.dark .dark\:stroke-textMainDark) {
   stroke: var(--highlight-color);
 }
 
