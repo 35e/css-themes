@@ -12,6 +12,8 @@
 }
 
 /* Background */
+html,
+html.dark,
 :is(.dark .dark\:bg-backgroundDark) {
   background-color: var(--background-color);
 }
@@ -67,7 +69,8 @@
 
 .stroke-super,
 .group:hover .group-hover\:stroke-superDuper,
-:is(.dark .dark\:stroke-superDark) {
+:is(.dark .dark\:stroke-superDark),
+:is(.dark .dark\:stroke-textMainDark) {
   stroke: var(--highlight-color);
 }
 
@@ -107,4 +110,9 @@
   :is(.dark .dark\:md\:hover\:bg-offsetPlusDark:hover) {
     background-color: var(--secondary-color);
   }
+}
+
+/* LLama */
+.justify-end.text-right .grow.min-w-0 .prose {
+  color: var(--background-color);
 }
