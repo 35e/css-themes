@@ -74,6 +74,10 @@ html.dark,
   stroke: var(--highlight-color);
 }
 
+:is(.dark .dark\:outline-superDark) {
+  outline-color: var(--highlight-color);
+}
+
 .hover\:\!ring-super:hover,
 :is(.dark .dark\:focus\:ring-borderMainDark:focus) {
   --tw-ring-color: var(--highlight-color) !important;
