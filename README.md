@@ -2,14 +2,12 @@
 This repository contains custom CSS themes for websites. These themes can be used to style different elements and customize the appearance of web pages. Feel free to explore and use these themes.
 
 ## Auto update installation (recommended)
-This method is recommended since it will automatically keep the themes up to date.
-
-For this to work you need **one** of the following extensions:
+This method is recommended since it will automatically keep the themes up to date. For this to work you need **one** of the following extensions:
 - Tampermonkey ([Chromium](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)/ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))
 - Violentmonkey ([Chromium](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)/ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search))
 - Userscripts ([Safari](https://apps.apple.com/us/app/userscripts/id1463298887), also works on IOS)
 
-Once installed nagivate to the theme you want to install on this github and click on the `themeName.user.js` file. At the top of the file you'll see a `Raw` button (see image). You'll then be prompted to install the script.
+Once installed navigate to the theme you want to install on this github and click on the `themeName.user.js` file. At the top of the file you'll see a `Raw` button (see image). You'll then be prompted to install the script.
 
 With the userscripts extension on safari you'll have to click on the extension icon and then click on the install button.
 
