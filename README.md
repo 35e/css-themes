@@ -7,7 +7,7 @@ This method is recommended since it will automatically keep the themes up to dat
 - Violentmonkey ([Chromium](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)/ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search))
 - Userscripts ([Safari](https://apps.apple.com/us/app/userscripts/id1463298887), also works on IOS)
 
-Once installed navigate to the theme you want to install on this github and click on the `themeName.user.js` file. At the top of the file you'll see a `Raw` button (see image). You'll then be prompted to install the script.
+Once installed navigate to the theme you want to install on this github and click on the `themeName.user.js` file. At the top of the file you'll see a `Raw` button that you need to click (see image). You'll then be prompted to install the script.
 
 Reload the website and you should see the new theme.
 
