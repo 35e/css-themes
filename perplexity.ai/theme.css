@@ -27,6 +27,7 @@ html.dark,
 }
 
 :is(.dark .dark\:border-borderMainDark),
+:is(.dark .dark\:border-borderMainDark\/60),
 :is(.dark .dark\:border-borderMainDark\/80),
 :is(.dark .dark\:divide-borderMainDark\/80) > :not([hidden]) ~ :not([hidden]) {
   border-color: var(--secondary-color);
